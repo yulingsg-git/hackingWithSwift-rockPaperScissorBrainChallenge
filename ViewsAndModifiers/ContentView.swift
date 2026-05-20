@@ -140,7 +140,7 @@ struct ContentView: View {
             showFinalScore = true
             finalScore = "Your final score is \(playerScore)"
         } else {
-proceedToNextRound()
+            proceedToNextRound()
         }
     }
 }
